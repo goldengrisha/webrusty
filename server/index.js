@@ -1,23 +1,3 @@
-// import { fibonacci } from 'webrusty';
-
-//console.log(multiply(5, 7)); // prints 35
-
-// // Benchmarking Rust/WASM vs pure JavaScript
-// function fibonacciJS(n) {
-//   if (n <= 1) return n;
-//   return fibonacciJS(n - 1) + fibonacciJS(n - 2);
-// }
-
-// const num = 40;
-
-// console.time('Fibonacci Rust/WASM');
-// console.log(fibonacci(num));
-// console.timeEnd('Fibonacci Rust/WASM');
-
-// console.time('Fibonacci JavaScript');
-// console.log(fibonacciJS(num));
-// console.timeEnd('Fibonacci JavaScript');
-
 import express from 'express';
 import { WebSocketServer } from 'ws';
 

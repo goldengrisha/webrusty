@@ -3,20 +3,20 @@
 
 Please follow the instructions:
 
-## Folder **node_example**:
+## Folder `server`:
 
 ```bash
 npm i
 node index.js
 ```
 
-## Folder **rust** (if building wasm is needed):
+## Folder `rust` (if building wasm is needed):
 
 ```bash
-wasm-pack build --target web --out-dir ../pkg
+wasm-pack build --target web --out-dir ../client/pkg
 ```
 
-## Folder **root**:
+## Folder `client`:
 
 ```bash
 # Please install python3
